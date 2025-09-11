@@ -113,7 +113,7 @@
             <!-- Attendance List -->
             <div class="bg-black-500 rounded-lg p-4">
                  <div class="flex justify-between items-center mb-4">
-                    <h2 class="text-xl font-semibold text-red-500">Live Attendance</h2>
+                    <h2 class="text-xl font-semibold text-red-500">Attendance Register</h2>
                     <button id="export-csv-btn" class="bg-green-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md btn-hover-effect text-sm disabled:bg-black-400 disabled:cursor-not-allowed" disabled>Export to CSV</button>
                 </div>
                 <div class="overflow-x-auto">
@@ -139,17 +139,17 @@
             <button id="student-back-btn" class="absolute top-6 left-6 text-sm text-green-400 hover:underline">&larr; Back to roles</button>
             <div class="text-center mb-8 mt-8">
                 <h1 class="text-3xl font-bold text-yellow-500">Student Sign-In</h1>
-                <p class="text-gray-400 mt-2">Enter your details and Session ID to sign in.</p>
+                <p class="text-gray-400 mt-2">Enter your details and Session ID to Mark Register.</p>
             </div>
             <div id="student-signin-form" class="space-y-4">
                 <input type="text" id="student-firstname-input" placeholder="First Name" class="w-full px-4 py-3 text-gray-200 bg-gray-800 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 placeholder-gray-500">
                 <input type="text" id="student-surname-input" placeholder="Surname" class="w-full px-4 py-3 text-gray-200 bg-gray-800 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 placeholder-gray-500">
                 <input type="text" id="session-id-input" placeholder="Session ID" class="w-full uppercase px-4 py-3 text-gray-200 bg-gray-800 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 placeholder-gray-500">
-                <button id="student-signin-btn" class="w-full bg-green-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md btn-hover-effect">Sign In</button>
+                <button id="student-signin-btn" class="w-full bg-green-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md btn-hover-effect">Mark Register</button>
             </div>
             <p id="student-error-message" class="text-red-500 text-sm mt-2 h-4 text-center"></p>
             <div id="student-success-message" class="hidden text-center p-4 mt-4 bg-green-900 bg-opacity-50 text-green-200 rounded-lg">
-                <p class="font-semibold">You have successfully signed in!</p>
+                <p class="font-semibold">You have successfully marked in present for today's class!</p>
             </div>
         </div>
 
@@ -404,3 +404,4 @@
     </script>
 </body>
 </html>
+
